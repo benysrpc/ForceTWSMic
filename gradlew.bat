@@ -1,2 +1,2 @@
 @echo off
-echo gradlew.bat placeholder
+call gradlew.bat %*

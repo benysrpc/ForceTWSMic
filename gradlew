@@ -1,2 +1,2 @@
 #!/bin/sh
-./gradlew script placeholder
+exec ./gradlew "$@"
