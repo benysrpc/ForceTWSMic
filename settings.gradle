@@ -1,2 +1,9 @@
 rootProject.name = 'LSPosedTWSMic'
 include ':app'
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
