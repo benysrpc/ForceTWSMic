@@ -17,7 +17,6 @@ public class TWSMicModule implements IXposedHookLoadPackage {
 
     @Override
     public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
-
         if (!lpparam.packageName.equals("com.tencent.ig") && !lpparam.packageName.equals("com.pubg.krmobile")) {
             return;
         }
