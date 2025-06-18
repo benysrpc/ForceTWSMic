@@ -1,0 +1,8 @@
+{
+  "name": "Force TWS Mic",
+  "description": "Force all apps to use Bluetooth SCO mic (TWS) globally.",
+  "version": "1.0",
+  "author": "OpenAI-GPT",
+  "main_class": "com.openai.forcetwsmic.ForceMicHook",
+  "minLsposedVersion": "1.6.0"
+}
