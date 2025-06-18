@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beni.forcetwsmic">
+
+    <application
+        android:label="Force TWS Mic"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="Force TWS Mic and Disable Internal Mic"/>
+        <meta-data android:name="xposedminversion" android:value="93"/>
+    </application>
+
+</manifest>
